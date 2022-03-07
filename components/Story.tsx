@@ -1,6 +1,6 @@
 interface IStory {
-  avatar: string
-  username: string
+  avatar: string | undefined
+  username: string | undefined
 }
 
 export function Story({ avatar, username }: IStory) {
